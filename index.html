@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contatos ACME</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	</head>
+	<body>
+		<header>
+			<div class="content">
+				<img src="images/logo-acme.png">
+			</div>
+		</header>
+
+		<div class="divBusca">
+			<div class="content">
+				<form> 
+					<input type="text" id="txtBusca" class="box-busca"; placeholder="Pesquisar Contatos"/>
+			 		<a><i id="btnBusca" class="fas fa-search"></i></a>
+				</form>
+			</div>
+		</div>
+
+		<div class="box-contato contato-favorito">
+			<div class="content">
+				<h1 class="title">Contatos favoritos</h1>
+				<ul class="favorite">
+					<li>
+						<a class="favoriteFull">                            
+							<i class="fas fa-star"></i>                        
+						</a>                        
+						<div class="photo">                            
+							<img src="https://randomuser.me/api/portraits/med/men/86.jpg">                         
+						</div> 
+						<h1 class="name">maciej lervik</h1>                         
+						
+						<div class="info">
+							<a class="more">
+                                <i class="fas fa-plus"></i>
+                            </a>
+
+                            <div class="box-info" style="display: none;">                
+								<div class="email">                                
+									<a href="mailto:maciej.lervik@example.com">
+										<i class="far fa-envelope"></i> 
+										maciej.lervik@example.com                                                               
+									</a>         
+								</div>                            
+								<div class="phone">                                
+									<a href="tel:30587989">
+										<i class="fas fa-phone"></i> 
+										30587989
+									</a>                            
+								</div>                            
+								<div class="cel">                               
+									<a href="tel:45511868">
+										<i class="fas fa-mobile-alt"></i>
+										45511868
+									</a>                            
+								</div>    
+							</div>                    
+						</div>                     
+					</li>
+					<li>
+						<a class="favoriteFull">                            
+							<i class="fas fa-star"></i>                        
+						</a>                        
+						<div class="photo">                            
+							<img src="https://randomuser.me/api/portraits/med/women/54.jpg">                         
+						</div>          
+						<h1 class="name">evita onstenk</h1>   
+
+						<div class="info">  
+							<a class="more">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                            
+                            <div class="box-info" style="display: none;">                          
+								<div class="email">                                
+									<a href="mailto:evita.onstenk@example.com">
+										<i class="far fa-envelope"></i> 
+										evita.onstenk@example.com
+									</a>         
+								</div>   
+
+								<div class="phone">                                
+									<a href="tel:(709)-151-8625">
+										<i class="fas fa-phone"> </i>  
+										(709)-151-8625
+									</a>                            
+								</div>                            
+								<div class="cel">                               
+									<a href="tel:(692)-022-8760">
+										<i class="fas fa-mobile-alt"></i>
+										(692)-022-8760
+									</a>                            
+								</div> 
+							</div>                       
+						</div>                     
+					</li>
+					<li>
+						<a class="favoriteFull">                            
+							<i class="fas fa-star"></i>                        
+						</a>                        
+						<div class="photo">                            
+							<img src="https://randomuser.me/api/portraits/med/men/14.jpg">                         
+						</div>         
+						<h1 class="name">henry patel</h1>   
+
+						<div class="info">                            
+							<a class="more">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                            
+                            <div class="box-info" style="display: none;"> 
+								<div class="email">                                
+									<a href="mailto:henry.patel@example.com">
+										<i class="far fa-envelope"></i> 
+										henry.patel@example.com
+									</a>         
+								</div>   
+
+								<div class="phone">                                
+									<a href="tel:(301)-983-3948">
+										<i class="fas fa-phone"> </i>  
+										(301)-983-3948
+									</a>                            
+								</div>                            
+								<div class="cel">                               
+									<a href="tel:(039)-948-7592">
+										<i class="fas fa-mobile-alt"></i>
+										(039)-948-7592 
+									</a>                            
+								</div>      
+							</div>                  
+						</div>                     
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="box-contato contatos">
+			<div class="content">
+				<h1 class="title">Todos os contatos</h1>
+
+				<ul class="all"></ul>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main1.js"></script>
+
+	</body>
+</html>
